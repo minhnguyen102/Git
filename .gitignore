@@ -1,0 +1,9 @@
+# ignore toàn bộ folder
+node_modules/
+
+# ignore toàn bộ folder nhưng muốn giữ lại file index.js
+dist/**
+!dist/index.js
+
+# ignore file bắt đầu bằng kí tự (ignore các file bắt đầu bằng kí tự logs)
+logs*
